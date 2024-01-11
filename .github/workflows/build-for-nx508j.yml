@@ -43,7 +43,7 @@ jobs:
           git clone https://github.com/meleksaidani1/android_device_samsung_a10sS
           git clone https://github.com/meleksaidani1/android_vendor_samsungS_a10s          
           source build/envsetup.sh
-          lunch lineage_nx508j-userdebug
+          lunch lineage_a10s-userdebug
           
       - name: Starting Build Process
         run: |
